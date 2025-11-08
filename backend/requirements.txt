@@ -1,0 +1,11 @@
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+# mysqlclient==2.2.0  # Requires Visual C++ Build Tools. Using pymysql instead.
+pymysql>=1.0.0
+djangorestframework-simplejwt==5.3.0
+django-allauth==0.57.0
+Pillow>=10.0.0
+python-decouple==3.8
+django-filter==23.5
+

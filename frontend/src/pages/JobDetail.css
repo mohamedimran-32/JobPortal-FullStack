@@ -1,0 +1,144 @@
+.job-detail-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.job-detail {
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.job-detail-header h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.job-company {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.job-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.job-meta span {
+  color: #666;
+  font-size: 14px;
+}
+
+.job-badge {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.job-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.apply-form-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.apply-form-card h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.job-detail-content {
+  margin-bottom: 30px;
+}
+
+.job-info-card,
+.job-description-card,
+.job-requirements-card {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.job-info-card:last-child,
+.job-description-card:last-child,
+.job-requirements-card:last-child {
+  border-bottom: none;
+}
+
+.job-info-card h3,
+.job-description-card h3,
+.job-requirements-card h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.job-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.job-info-grid div {
+  color: #666;
+}
+
+.job-description-card p,
+.job-requirements-card p {
+  color: #666;
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.job-detail-footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .job-detail-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .job-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .job-actions button {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,48 @@
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.file-link {
+  display: inline-block;
+  margin-top: 5px;
+  color: #007bff;
+  font-size: 14px;
+}
+
+.file-link:hover {
+  text-decoration: underline;
+}
+
+.company-logo-preview {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    padding: 20px;
+  }
+}
+
